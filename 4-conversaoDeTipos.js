@@ -5,7 +5,8 @@ console.log("Conversão de Tipos");
 console.log("ano" + 2020);
 console.log("2" + "2");
 console.log(parseInt("2") + parseInt("2"));
-// parseInt faz a conversão de tipos de variável
+// parseInt faz a conversão de tipos de variável (string > inteiro)
+// parseFloat converte string para floating-number (decimais)
 
 console.log("10" / "2")
 console.log("Alan" / "2") // NaN - Not a Number

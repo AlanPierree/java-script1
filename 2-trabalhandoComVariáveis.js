@@ -6,4 +6,4 @@ console.log("Trabalhando com variáveis");
 const idade = 15;
 const nome = "Alan";
 
-console.log("Alan tem", idade, "anos.")
+console.log("Alan tem", idade, "anos.");
