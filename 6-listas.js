@@ -9,6 +9,11 @@ const listaDeDestinos = new Array(
     `Salvador`, `São Paulo`, `Rio de Janeiro`
 );
 
-listaDeDestinos.push(`Curitiba`) // Adiciona novo item à lista
+listaDeDestinos.push(`Curitiba`); // push adiciona novo item à lista
 
-console.log(listaDeDestinos)
+console.log(`Lista de destinos:`);
+console.log(listaDeDestinos);
+
+listaDeDestinos.splice(1,1); // splice retira item da lista (posição, quantidade)
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[1], listaDeDestinos[0]);
