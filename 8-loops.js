@@ -1,13 +1,11 @@
 console.log(`Trabalhando com condicionais`);
-
-// new Array cria uma lista
 const listaDeDestinos = new Array(`Salvador`, `São Paulo`, `Rio de Janeiro`);
 
 listaDeDestinos.push(`Curitiba`); // push adiciona novo item à lista
 
 const idadeComprador = 18;
 const estaAcompanhada = true;
-const temPassagemComprada = true;
+let temPassagemComprada = false;
 
 console.log(`Destinos possíveis:`);
 console.log(listaDeDestinos);
